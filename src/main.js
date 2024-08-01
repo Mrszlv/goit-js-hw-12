@@ -76,8 +76,7 @@ function showScrollToTopBtn() {
     if (window.scrollY > 1000) {
         scrollToTopBtn.classList.remove('hidden');
     } else {
-        scrollToTopBtn.classList.add('hidden'); 
-        
+        scrollToTopBtn.classList.add('hidden');
     }
 }
 
